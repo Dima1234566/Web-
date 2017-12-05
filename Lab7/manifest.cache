@@ -1,0 +1,14 @@
+CACHE MANIFEST
+CACHE:
+index.html
+reviews.html
+curiculum.html
+news.html
+admin.html
+contacts.html
+css/bootstrap.css
+style.css
+img/main.jpg
+img/top_pic.jpg
+FALLBACK:
+404.html

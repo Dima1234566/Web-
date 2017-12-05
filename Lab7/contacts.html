@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html manifest="manifest.cache">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Bootstrap сайт</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="navbar navbar-inverse navbar-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+            <span class="icon-bar"></span> 
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="index.html">Головна</a>
+            </li>
+            <li>
+              <a href="news.html">Новини</a>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Студентам</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="curiculum.html">Фахівці</a>
+                </li>
+                <li>
+                  <a href="#">Шахраї</a>
+                </li>
+                <li>
+                  <a href="#">Ціни</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="rewievs.html">Відгуки</a>
+            </li>
+            <li class="active">
+              <a href="contacts.html">Контакти</a>
+            </li>
+            <li>
+              <a href="admin.html">Admin</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div id="headerwrap1"></div>
+
+  <div id="dg">
+    <div class="container">
+      <div class="row centered">
+        <div class="container w">
+          <div class="col-lg-4">
+        <i class="fa fa-map-marker"></i>
+        <h4>Наша адреса:</h4>
+        <p>Національний університет “Львівська політехніка“
+
+Кафедра “Комп’ютеризовані системи автоматики“
+м. Львів, вул. Степана Бандери 28а Інститут комп’ютерних технологій, автоматики та метрології (ІКТА)
+5 корпус, 6 поверх, кімната 601</p>
+      </div>
+      <div class="col-lg-4">
+        <i class="fa fa-envelope-o"></i>
+        <h4>Email:</h4>
+        <p>info@iot-ua.com</p>
+      </div>
+      <div class="col-lg-4">
+        <i class="fa fa-phone"></i>
+        <h4>Телефони</h4>
+        <p>+38 (032) 258-2464<br>+38 (032) 258-2197</p>
+      </div>
+    <br><br>
+    </div>
+  </div>
+</div>
+<div class="map">    
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;'>
+      <div id='gmap_canvas' style='height:440px;width:100%; background-attachment: centered'></div>
+      <small></small></div>
+      <style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
+      <script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(49.839683,24.029717000000005),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(49.859684,24.029717000000000)});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+  </div></div>
+
+  
+
+  <div id="f">
+    <div class="container">
+      <div class="row centered">
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-vk"></i></a>
+      </div>
+    </div>
+  </div>
+      <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body></html>
