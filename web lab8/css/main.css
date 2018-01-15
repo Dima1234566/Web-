@@ -1,0 +1,43 @@
+
+
+#last_news_image {
+    width: 180px;
+    float: left;
+}
+.Feedback_heading {
+        margin-top: 70px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: "Brush Script MT", cursive;
+}
+.News_heading {
+    margin-top: 0px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: "Brush Script MT", cursive;
+}
+
+h2,h1 {
+    margin-top: 70px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "Brush Script MT", cursive;
+}
+
+p {
+	 font-size: 18px;
+    font-family: "Cornerstone" , cursive;
+}
+
+footer{
+    padding: 15px;
+    background: #efefef;
+    margin-top: 6%;
+}
+
+
+
+
+
+
+}
